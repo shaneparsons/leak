@@ -7,7 +7,7 @@
 - open routes/web.php
 - follow the instructions in the comments
 
-## Note:
+### Note:
 
 - Make sure to open up activity monitor **before** the above steps. The php process will climb fast, and you'll have to force quit it unless you want your computer to crash as well.
 
