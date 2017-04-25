@@ -14,9 +14,9 @@
 $app->get('/', function () use ($app) {
 
     /**
-     * bug:
-     * type `()->json` (dont' copy and paste) after the word "response" (below) and watch the php task in the activity monitor
-     * the leak begins after the `->` is typed... no save neccessary
+     * To reproduce memory leak:
+     * - type `()->json` (dont' copy and paste) after the word "response" below, and watch the php task in the activity monitor
+     * - the leak begins after the `->` is typed... no save neccessary
      */
 
     return response('Success', 200); 
